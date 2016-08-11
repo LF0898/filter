@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+</head>
+<body>
+<h3 align="center">上传文件</h3>
+<form method="post" enctype="multipart/form-data" action="test.php">
+    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+    up pic: <input type="file" name="pic[]" value="" multiple="multiple"><br>
+    <input type="submit" value="上传" name="B1">
+</form>
+</body>
+</html>
