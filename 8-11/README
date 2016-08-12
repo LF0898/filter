@@ -1,1 +1,3 @@
-#
+cookie 内封装一个cookie类k及一个测试方法
+login  内含一个登陆和退出功能的页面
+session  内封装一个session类及其测试方法
