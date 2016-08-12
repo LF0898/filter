@@ -1,1 +1,2 @@
-#
+CookieClass类封装了一个Cookie类，类中提供了更改cookie有效时间、判断输入数据是否合法、存入cookiey及删除cookied方法，test.php提供
+一个测试方法
