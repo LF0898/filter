@@ -1,1 +1,1 @@
-TraversalFile类遍历文件，打开一个文件夹判断是否
+TraversalFile类遍历文件，通过递归遍历完目录下的文件将其输出，test.php提供其测试方法
