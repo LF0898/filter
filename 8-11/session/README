@@ -1,1 +1,2 @@
-#
+SessionClass类封装了一个Session类，类中提供了判断输入数据是否合法、存入SessionSession及删除Session方法，test.php提供
+一个测试方法

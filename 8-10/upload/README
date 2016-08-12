@@ -1,1 +1,2 @@
-#
+FileUpload.html是显示页面，通过这个页面选择提交一个或多个文件，跳转到FileUpload.php进行处理，FileUpload.php通过判断传入的文件是否
+合法、是否是多个文件，如果合法可以修改其文件名后存入指定文件夹，test.php提供其测试方法。

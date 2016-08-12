@@ -1,1 +1,1 @@
-#
+MessageBoard.html是一个留言板显示页面，输入数据后跳转到messageBoard.php，messageBoard经过处理后显示，后再调取Store进行存入文本
