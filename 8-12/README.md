@@ -154,3 +154,6 @@ select user.userName,course.courseName,point.grade,teacher.teachterName from use
         left join point on user.userNo=point.userNo  //关联user表和point表
         left join course on course.courseNo=point.courseNo  //关联point表和course表
         left join teacher on teacher.teacherNo=course.teacherNo; 关联course表和teacher表
+ MySqlClass.php是一个封装mysql类,testMysql.php为其测试方法
+ MysqliClass.php是一个封装mysqli类,testMysqli.php为其测试方法
+ PdoClass.php是一个封装pdo类,testPdao.php为其测试方法
