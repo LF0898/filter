@@ -11,9 +11,7 @@
 测试方法：
 $arra = array("linux RedHat9.0", "Apache2.2.9", "MySL5.0.51", "PHP5.2.6", "LAMP", "100");
 
-$tag  = "<tr><td><a href=\"http://qzone.qq.comdasdasdasdas\">QQ空间</a></td><td><a 
-
-href=\"http://www.ganji.com\">赶集网</a></td>";
+$tag  = "<tr><td><a href=\"http://qzone.qq.comdasdasdasdas\">QQ空间</a></td><td><a href=\"http://www.ganji.com\">赶集网</a></td>";
 
 $test = new Regular();
 echo "<pre>";
