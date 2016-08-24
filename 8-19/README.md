@@ -1,10 +1,10 @@
 # 正则练习
 
 功能：
- - 找出一个数组中以字母开头和以数字结束的单元（function strchar)
- - 取出一个URL中的协议、主机、域名、和文件名(function matchingURL)
- - 找出字符串中的所有网址(getURL)
- - 去除所有HTML标签（function removeTag)
+ - 找出一个数组中以字母开头和以数字结束的单元（function regularChar)
+ - 取出一个URL中的协议、主机、域名、和文件名(function regularUrl)
+ - 找出字符串中的所有网址(function regularUrl)
+ - 去除所有HTML标签（function deleteTag)
 
 ---
 
@@ -16,11 +16,11 @@ $tag  = "<tr><td><a href=\"http://qzone.qq.comdasdasdasdas\">QQ空间</a></td><t
 $test = new Regular();
 echo "<pre>";
 //找出一个数组中以字母开头和以数字结束的单元
-var_dump($test->strchar($arra));
+var_dump($test->regularChar($arra));
 //取出一个URL中的协议、主机、域名、和文件名
-$url = $test->matchingURL("http://www.yaochufa.com/index.php");
+$url = $test->regularUrl("http://www.yaochufa.com/index.php");
 var_dump($url[2], $url[4], $url[5]);
 //找出字符串中的所有网址
-var_dump($test->getURL($tag));
+var_dump($test->regularUrl($tag));
 去除所有HTML标签
-var_dump($test->removeTag($tag));
+var_dump($test->deleteTag($tag));
