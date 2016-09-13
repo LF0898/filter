@@ -1,0 +1,54 @@
+/*
+ * 功能：个人中心
+ * 时间：2015-09-08
+ * 作者：GuoShuoHui
+ * 联系：2604637615
+ *  
+ */
+
+
+/* 个人信息 */
+.personal .limit { line-height: 30px; background: #f8f9fb; color: #787878; margin-bottom: 32px; }
+.personal .limit li { float: left; padding: 0 90px 0 24px; }
+.personal .limit strong { font-weight: bold; color: #ff6c00; margin-left: 5px; }
+
+.user-center form legend { display: block; line-height: 32px; width: 100%; border-bottom: 2px solid #f8f9fb; }
+.user-center .main { padding: 20px 48px 20px 42px; }
+.user-center .main select { margin-right: 5px; }
+.user-center .main li { padding: 12px 0; position: relative; zoom: 1; }
+.user-center .main li:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.user-center .main li:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.user-center .main li .error { display: none; float: left; border: 1px solid #ffc698; border-radius: 2px; color: #ff7200; background: #fffef1 url(/static/dist/img/error.png) no-repeat 10px center; height: 28px; line-height: 28px; padding: 0 10px 0 31px; font-size: 13px; position: relative; }
+.user-center .main .safe-pwd { display: block; color: #ff7200; margin-bottom: 20px; }
+.user-center .main li .error i { position: absolute; height: 12px; width: 7px; background: url(/static/dist/img/error-arrow.png) no-repeat 0 0; left: -7px; top: 9px; }
+.user-center .main li.error input { border-color: #ff7200; }
+.user-center .main li.error .error { display: block; }
+
+.user-center form ol label { float: left; margin-right: 38px; line-height: 30px; }
+.user-center form input :not(.notleft){ color: #2f2f2f; width: 216px; }
+.user-center form ol label .icon { margin-right: 8px; }
+.user-center form ul li { float: left; width: 44%; }
+.user-center form ul li * { float: left; }
+.user-center form ul li .notleft { height: 33px; }
+.user-center form li strong { display: block; width: 118px; text-align: right; margin-right: 10px; float: left; color: #787878; line-height: 30px; }
+.user-center form li strong i { color: red; margin-left: 3px;float:none; }
+.user-center form li span { /*display: block; float: left; line-height: 30px;*/ }
+.user-center form li.address { float: left; width: 100%; }
+.user-center form li.address input { width: 628px; }
+.user-center .select { margin-right: 16px; }
+.user-center .select div em, .user-center .select div i { float: none; }
+.user-center .select * { float: none; }
+.user-center .select li { padding: 0 9px; width: auto; }
+.user-center .select span { line-height: 28px; }
+.user-center form button { width: 88px; margin: 12px 0 0 129px; }
+.user-center .error-tips { color: #ff0000; margin-left: 80px; }
+
+/* 修改密码 */
+.user-center .change input { float: left; margin-right: 16px; height : 29px }
+.user-center .change span { color: #bcc1ca; }
+
+/* 下单发送短信 */
+.user-center form .send-sms { padding: 10px 0; color: #787878; }
+.user-center form .send-sms strong { margin-right: 5px; }
+.user-center form .send-sms label { margin-right: 20px; }
+.user-center form .send-sms input { width: auto; margin: 0 3px; }
