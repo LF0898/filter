@@ -1,18 +1,23 @@
-#一个基于phalcon的mvc骨架
+#
 
-##特点
+##前台部分：
 
-* 依赖phalcon扩展，性能强劲
-* mvc+s，增加service层，不用在controller里面写逻辑代码，让controller保持清爽
-* 受Yii框架的影响，生成的文件都放在runtime里面，保证该目录可写
-* cli应用使用：cd app，php run；tasks目录下文件为cli应用逻辑
-* 没有用多模块，而是用多层级controller，适合中小型应用
+*控制器：indexController
+*indexAction:新闻首页
+*jouralismAction：新闻详情
+*discussAction：添加评论
 
 
-## 安装
-* phalcon扩展，安装步骤：https://github.com/phalcon/cphalcon
-* git clone https://github.com/kcloze/phalconMvc.git
-* 导入数据表 database.sql
-* public为网站根目录，配置nginx或者apache
+## 后台部分：
+* 控制器：JouralismController
+indexAction：新闻首页
+jouralismAction：新闻详情（评论页）
+editAction：修改新闻
+deletejouralism：删除新闻（删除新闻会删除本条新闻及其本条新闻下的全部评论）
+deletediscuss：删除评论（只会删除单条新闻）
+addAction：添加新闻页
+addsAction：添加新闻操作
+##未完成：
+*搜索
 
 
