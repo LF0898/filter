@@ -1,0 +1,35 @@
+<h1>修改新闻</h1>
+<?php foreach ($jouralism as $row);?>
+<form action="" method="post">
+    <input type="hidden" value="<?=$row['jouralismId'];?>" name="id">
+<p>标题：<textarea name="title"><?=$row['jouralismTitle'];?></textarea></p>
+<p>内容：<textarea name="content"><?=$row['jouralismContent'];?></textarea></p>
+    <input type="submit" value="提交">
+</form>
+
+<h1>新闻评论</h1>
+
+
+<form action="/admin/jouralism/deletediscuss" method="post">
+    <table class="datalist fixwidth">
+        <tbody>
+        <tr>
+            <th nowrap="nowrap"><input name="chkall" id="chkall" class="checkbox" type="checkbox"><label for="chkall">删除</label></th>
+            <th nowrap="nowrap">新闻名称</th>
+            <th nowrap="nowrap">详情</th>
+        </tr>
+        <?php foreach ($discuss as $row) {;?>
+            <tr>
+                <td width="80"><input name="id" value="<?=$row['id'];?>" class="checkbox" type="checkbox"></td>
+                <td width="400"><?=$row['discussTitle'];?></td>
+                <td width="100"><a href="">编辑</a></td>
+            </tr>
+        <?php }
+;?>
+
+        <tr class="nobg">
+            <td ><input value="提 交" class="btn" type="submit"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>

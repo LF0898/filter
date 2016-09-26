@@ -1,0 +1,12 @@
+<?php //var_dump($data);;;;;;;;;;;;;;;;;;;;;?>
+
+<?php foreach ($data as $row);?>
+ <h1><?=$row["jouralismTitle"];?></h1>
+<h3><?=$row['jouralismContent'];?></h3>
+
+<form action="/front/index/discuss" method="post">
+    <input type="hidden" value="<?=$row['jouralismId'];?>" name="id">
+  <p>评论标题：  <input type="text" name="title"></p>
+   <p>评论内容：<textarea name="content"></textarea></p>
+    <input type="submit" value="提交">
+</form>

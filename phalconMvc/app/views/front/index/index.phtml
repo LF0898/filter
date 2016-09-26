@@ -1,0 +1,8 @@
+
+<ul class="list_r" style="padding-right:40px">
+    <?php foreach ($data as $row) {;?>
+        <li><a href="/front/index/jouralism?id=<?=$row['jouralismId'];?>"><?=mb_substr($row['jouralismTitle'], 0, 20);?></li>
+    <?php }
+;?>
+    <?=$page;?>
+</ul>
